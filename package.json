@@ -96,6 +96,8 @@
   "dependencies": {
     "axios": "^0.18.0",
     "fastclick": "^1.0.6",
+    "mockjs": "^1.0.1-beta3",
+    "react-cookie": "^2.1.4",
     "react-redux": "^5.0.7",
     "react-router-dom": "^4.2.2",
     "redux": "^3.7.2",
