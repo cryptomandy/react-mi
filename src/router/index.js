@@ -3,7 +3,6 @@ import { HashRouter, Switch, Route } from 'react-router-dom'; // ???
 
 //页面
 import home from "../pages/home/home";
-import about from "../pages/member/about/about";
 /**
  * @name react-router说明
  * @summary 
@@ -17,7 +16,6 @@ export default class RouteConfig extends Component{
             <HashRouter>
                 <Switch>
                     <Route path="/" exact component={home} />
-                    <Route path="/about" component={about} />
                 </Switch>
             </HashRouter>
         )

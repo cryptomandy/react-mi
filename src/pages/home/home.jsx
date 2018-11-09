@@ -55,7 +55,10 @@ class Base extends Component {
           // forEach不行？？？
           //注意key，循环过程中多个判断处理方法
           this.pageData.list.map((item,index) => {
-              return <li key={index} className={`item_${index}`}>{item.id}-{item.name}</li>
+              return <li key={index} className={`item_${index}`}>
+                <div>{item.id}-{item.name}<span>测试</span></div>
+              </li>
+              
           })
         }</ul>
         {/* React DOM结点使用骆驼拼写法给属性命名 */}
